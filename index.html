@@ -26,6 +26,9 @@
 		  margin-bottom: 150px;
 		  background-color: #FFFFFF;
 		}
+		#titulo{
+			text-decoration: none;
+		}
 		/* Sticky footer styles -------------------------------------------------- */
 		.footer {
 		  position: absolute;
@@ -35,10 +38,18 @@
 		  height: 70px;
 		  background-color: grey;
 		}
-		.publi{
+		.footer a{
+			color: black;
+		}
+		#publi{
 			padding: 0px; 
 			padding-top: 10px; 
 			background-color: grey;
+			height:300px;
+		}
+		#contenido{
+			background-color: yellow;
+			height:450px;
 		}
 	</style>
 	<script>
@@ -49,17 +60,17 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 text-center">
-				<a href="#"><h1>Título</h1></a>
+				<a id="titulo" href="#"><h1>Título</h1></a>
 				<hr>
 				<div>
 					<p>Subtítulo</p>
 				</div>
 				<hr>
 			</div>
-			<div class="col-md-9">
+			<div id="contenido" class="col-md-9">
 				<!-- COLUMNA CONTENIDO -->
 			</div>
-			<div class="col-md-3 publi">
+			<div id="publi" class="col-md-3">
 				<!-- COLUMNA PUBLICIDAD -->
 			</div>
 		</div>
@@ -68,7 +79,7 @@
       <div class="container text-center">
         <p class="text-muted">Copyright &copy; 2016
 			<address>
-	   		<a href="mailto:info@dominio.com">Contacto/Sugerencias/Informe de errores</a>
+		   	<a href="mailto:info@dominio.com">Contacto/Sugerencias/Informe de errores</a>
 			</address>
 		</p>
       </div>
