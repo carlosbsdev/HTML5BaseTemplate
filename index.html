@@ -1,89 +1,88 @@
 <!doctype html>
 <html lang="es">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Descripción del sitio">
-    <meta name="author" content="Autor del sitio">
-    <link rel="icon" href="#">
-    <title>Título</title>
-	
-	<!-- Bootstrap 4.1.1 CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-	</head>
-<body>
-	<style>
-		html {
-		  position: relative;
-		  min-height: 100%;
-		}
-		body {
-		  /* Margin bottom by footer height */
-		  margin-bottom: 150px;
-		  background-color: #FFFFFF;
-		}
-		#titulo{
-			text-decoration: none;
-		}
-		/* Sticky footer styles -------------------------------------------------- */
-		.footer {
-		  position: absolute;
-		  bottom: 0;
-		  width: 100%;
-		  /* Set the fixed height of the footer here */
-		  height: 70px;
-		  background-color: grey;
-		}
-		.footer a{
-			color: black;
-		}
-		#publi{
-			padding: 0px; 
-			padding-top: 10px; 
-			background-color: grey;
-			height:300px;
-		}
-		#contenido{
-			background-color: yellow;
-			height:450px;
-		}
-	</style>
-	<script>
-	  $(window).load(function() {
-		  //Implementar código javascript al cargar la página
-		});
-	</script>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<a id="titulo" href="#"><h1>Título</h1></a>
-				<hr>
-				<div>
-					<p>Subtítulo</p>
-				</div>
-				<hr>
-			</div>
-			<div id="contenido" class="col-md-9">
-				<!-- COLUMNA CONTENIDO -->
-			</div>
-			<div id="publi" class="col-md-3">
-				<!-- COLUMNA PUBLICIDAD -->
-			</div>
-		</div>
-	</div>
-	<footer class="footer">
-      <div class="container text-center">
-        <p class="text-muted">Copyright &copy; 2016
-			<address>
-		   	<a href="mailto:info@dominio.com">Contacto/Sugerencias/Informe de errores</a>
-			</address>
-		</p>
-      </div>
-  </footer>
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-</body>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Descripción del sitio">
+        <meta name="author" content="Autor del sitio">
+        <link rel="icon" href="#">
+        <title>Título</title>
+        <!-- Bootstrap 4.1.1 CSS and jQuery 3.3.1 -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <style>
+            html {
+                position: relative;
+                min-height: 100%;
+            }
+            body {
+                /* Margin bottom by footer height */
+                margin-bottom: 150px;
+                background-color: #FFFFFF;
+            }
+            #titulo{
+                text-decoration: none;
+            }
+            #publi{
+                padding: 0px; 
+                padding-top: 10px; 
+                background-color: #0069AC;
+                height:300px;
+            }
+            #contenido{
+                background-color: #003865;
+                height:450px;
+            }
+            /* Sticky footer styles -------------------------------------------------- */
+            .footer {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                /* Set the fixed height of the footer here */
+                height: 70px;
+                background-color: #D4D4D4;
+            }
+            .footer a{
+                color: black;
+            }
+        </style>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <a id="titulo" href="#"><h1>Título</h1></a>
+                    <hr>
+                    <div>
+                        <p>Subtítulo</p>
+                    </div>
+                    <hr>
+                </div>
+                <div id="contenido" class="col-md-9">
+                    <!-- COLUMNA CONTENIDO -->
+                </div>
+                <div id="publi" class="col-md-3">
+                    <!-- COLUMNA PUBLICIDAD -->
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container text-center">
+                <p>Copyright &copy;
+                <address>
+                    <a href="mailto:info@dominio.com">Contacto</a>
+                </address>
+                </p>
+            </div>
+        </footer>
+        <!-- Popper.js, then Bootstrap JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function(){ 
+                
+            }, false);
+        </script>
+    </body>
 </html>
